@@ -25,14 +25,14 @@ public class Test3 {
      */
 
     public static void main(String[] args) throws Exception {
-//        try {
-//            method1();
-//        } catch (Exception e) {
-//            System.out.println(e);
-//            System.out.println("handling exception in main");
-//        }
+        try {
+            method1();
+        } catch (Exception e) {
+            System.out.println(e);
+            System.out.println("handling exception in main");
+        }
 
-        method1();
+//        method1();
     }
 
     private static void method1() throws IOException {
